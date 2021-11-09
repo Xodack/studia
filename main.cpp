@@ -1,6 +1,7 @@
 #include <iostream>
 #include<cmath>
 #include<conio.h>
+#include "funkcje.hpp"
 
 using namespace std;
 
@@ -115,6 +116,7 @@ int main()
 	}
 	
 */
+/*
 int x;
 
 cout <<"1.Funkcja liniowa"<<endl;
@@ -133,6 +135,13 @@ switch(x)
 		cout<<"Koniec";
 }
 
+*/
+
+
+
+
+cout<<"Hello world" <<endl;
+menu(123);
 
 
 
