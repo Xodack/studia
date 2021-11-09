@@ -1,0 +1,18 @@
+Projekt: Miejsca zerowe funkcji. 
+
+1.Napisz program obliczania miejsc zerowych funkcji liniowej postaci ax + b gdzie a?0 (wer.1.0) 
+
+2.Rozszerz program o mo¿liwoœæ podania a=0 (1.2) 
+
+3.Rozszerz program o obliczanie miejsc zerowych funkcji w postaci Ax + By + C = 0 (1.4) 
+
+4.Rozszerz program do funkcji kwadratowej postaci ax2 + bx + c gdzie a?0 (2.0) 
+
+5.Rozszerz program o mo¿liwoœæ podania a=0 (2.2) 
+
+6.Dodaj menu tekstowe wyboru miêdzy funkcj¹ liniow¹ a kwadratow¹. (na bocznej ga³êzi GITa do czasu jej ukoñczenia i zaimplementowania do Mastera) (2.3 -> 2.4) 
+
+7.Dodaj mo¿liwoœæ obliczania miejsc zerowych na podstawie funkcji w postaci kanonicznej y= a(x-p)2+q (dodaj do menu) (2.5 - > 2.6) 
+
+8.Na bocznej ga³êzi/ga³êziach rozwiñcie w zespole kolejne wersje dodaj¹c mo¿liwoœæ w programie przeliczania miêdzy postaciami funkcji kwadratowej w ka¿dym kierunku 
+pomiêdzy: ogóln¹, kanoniczn¹, iloczynow¹ (kolejne wersje - > 3.0 finalnie w Masterze) (podzielcie siê kto realizuje któr¹ czêœæ na swojej kopii z repo) 
