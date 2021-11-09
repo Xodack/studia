@@ -1,5 +1,6 @@
 #include <iostream>
 #include<cmath>
+#include<conio.h>
 
 using namespace std;
 
@@ -64,7 +65,7 @@ int main()
 	*/
 	
 	
-	
+	/*
 	
 	double a,b,c,x1,x2,delta;
 	
@@ -113,11 +114,24 @@ int main()
 		
 	}
 	
+*/
+int x;
 
+cout <<"1.Funkcja liniowa"<<endl;
+cout <<"2.Funkcja kwadratowa"<<endl;
 
-
-
-
+cin>>x;
+switch(x)
+{
+	case 1:
+	cout<<"Funkcja liniowa";
+	break;
+	case 2:
+	cout<<"Funkcja kwadratowa";
+	break;
+	default:
+		cout<<"Koniec";
+}
 
 
 
