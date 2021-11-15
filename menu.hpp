@@ -3,4 +3,5 @@
 void menu();
 int funkcjaliniowa();
 int funkcjakwadratowa();
+int funkcjakanoniczna();
 #endif

@@ -12,6 +12,7 @@ void menu()
 
 	cout <<"1.Funkcja liniowa"<<endl;
 	cout <<"2.Funkcja kwadratowa"<<endl;
+	cout <<"3.Funkcja w postaci kanonicznej"<<endl;
 
 	cin>>x;
 	switch(x)
@@ -26,6 +27,12 @@ void menu()
 		{
 			cout<<"Funkcja kwadratowa"<<endl;
 			funkcjakwadratowa();
+		}
+		break;
+		case 3:
+		{
+			cout<<"Funkcja w postaci kanonicznej"<<endl;
+			funkcjakanoniczna();
 		}
 		break;
 		default:
@@ -134,5 +141,59 @@ int funkcjakwadratowa()
 			cout<<"miejsce zerowe wynosi= "<<x1;
 		}
 	}
+}
+
+
+funkcjakanoniczna()
+{
+	double a,x,p,q,b,c,delta,x1,x2,x0;
+	
+	cin>>a;
+	cin>>p;
+	cin>>q;
+	
+	b=(-2*a*p);
+	c=(a*(p*p)+q);
+	
+	if(a!=0)
+	{
+		delta=(b*b)-4*(a*c);
+		
+		if(delta>0)
+		{
+			x1=(-b-sqrt(delta))/(2*a);
+			x2=(-b+sqrt(delta))/(2*a);
+			cout<<"miejsca zerowe wynosza: "<<endl;
+			cout<<"x1= "<<x1<<"	x2= "<<x2;
+		}
+		
+		if(delta==0)
+		{
+			x1=-b/(2*a);
+			cout<<"miejsce zerowe wynosi: "<<endl;
+			cout<<"x0= "<<x1;
+		}
+		
+		if(delta<0)
+		{
+			cout<<"brak miejsc zerowych";
+		}
+	}
+	if(a==0)
+	{
+		if(b==0)
+		{
+			cout<<"brak miejsc zerowych";
+		}
+		else if(c==0)
+		{
+			cout<<"nieskonczenie wiele miejsc zerowych";
+		}
+		else
+		{
+			x1=-c/b;	
+			cout<<"miejsce zerowe wynosi= "<<x1;
+		}
+	}	
 }
 
