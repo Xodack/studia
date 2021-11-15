@@ -1,6 +1,6 @@
 [Project]
-FileName=Projekt1.dev
-Name=Projekt1
+FileName=Projekt.dev
+Name=Projekt
 Type=1
 Ver=2
 ObjFiles=
@@ -27,9 +27,9 @@ CommandLine=
 Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
-CompilerSet=2
-CompilerSettings=0000000000000000100000000
-UnitCount=1
+CompilerSet=0
+CompilerSettings=0000000000000000000000000
+UnitCount=3
 
 [VersionInfo]
 Major=1
@@ -49,6 +49,26 @@ ProductName=
 ProductVersion=
 AutoIncBuildNr=0
 SyncProduct=1
+
+[Unit2]
+FileName=menu.hpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit3]
+FileName=menu.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
 
 [Unit1]
 FileName=main.cpp
